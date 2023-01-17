@@ -9,7 +9,7 @@ message=''
 
 
 def send_to_slack(channel_id, message):
-    token="xoxb-1549346898082-4649699744162-JWt8vbjQmbj4Vw4LXW3bIpdX"
+    token="my_token"
     client = WebClient(token=token)
 
     now = datetime.now().strftime('[%Y/%m/%d %H:%M:%S] ')
